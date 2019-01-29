@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+h1 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: black;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: silver;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+
+}
+article {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: grey;
+
+}

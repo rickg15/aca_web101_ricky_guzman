@@ -1,0 +1,108 @@
+<html>
+  <style>
+    #main {
+      display: grid;
+      grid-template-columns: 20vw auto 20vw;
+      grid-template-rows: 15vh auto;
+      grid-template-areas:
+        "header header header"
+        "leftSB content rightSB";
+    }
+    #header {
+      grid-area: header;
+    }
+    #leftSB {
+      grid-area: leftSB;
+    }
+    #root {
+      padding: 5px;
+      background-color: black;
+      width: 240px;
+      height: 280px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 0.1px;
+      grid-template-areas:
+        "display display display display"
+        "cdisplay cdisplay cdisplay cdisplay"
+        "clear clear divide minus"
+        "seven eight nine multiply"
+        "four five six plus"
+        "one two three equall"
+        "zero zero dot equall";
+    }
+    #display {
+      grid-area: display;
+    }
+    #cdisplay {
+      grid-area: display;
+    }
+    #clear {
+      grid-area: clear;
+    }
+    #divide {
+      grid-area: divide;
+    }
+    #minus {
+      grid-area: minus;
+    }
+    #seven {
+      grid-area: seven;
+    }
+    #eight {
+      grid-area: eight;
+    }
+    #nine {
+      grid-area: nine;
+    }
+    #multiply {
+      grid-area: multiply;
+    }
+    #four {
+      grid-area: four;
+    }
+    #five {
+      grid-area: five;
+    }
+    #six {
+      grid-area: six;
+    }
+    #plus {
+      grid-area: plus;
+    }
+    #one {
+      grid-area: one;
+    }
+    #two {
+      grid-area: two;
+    }
+    #three {
+      grid-area: three;
+    }
+    #equall {
+      grid-area: equall;
+    }
+    #zero {
+      grid-area: zero;
+    }
+    #dot {
+      grid-area: dot;
+    }
+  </style>
+
+  <body>
+    <div id="root">
+      <label id="display"> 0</label> <label id="cdisplay"> 0</label>
+      <button id="clear">AC</button> <button id="divide">/</button>
+      <button id="multiply">*</button> <button id="seven">7</button>
+      <button id="eight">8</button> <button id="nine">9</button>
+      <button id="minus">-</button> <button id="four">4</button>
+      <button id="five">5</button> <button id="six">6</button>
+      <button id="plus">+</button> <button id="one">1</button>
+      <button id="two">2</button> <button id="three">3</button>
+      <button id="zero">0</button> <button id="dot">.</button>
+      <button id="equal">=</button>
+    </div>
+  </body>
+</html>

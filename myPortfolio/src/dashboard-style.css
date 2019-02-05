@@ -8,32 +8,90 @@ h1 {
   font-family: fantasy;
   font-size: 45px;
   margin-left: 15px;
-  margin-right: 60%;
+  margin-right: -60px;
 }
-
+.boxed {
+  border: 2px solid gray;
+  border-radius: 1px;
+  text-align: center;
+  background-color: black;
+  color: gray;
+}
+.boxed-2 {
+  border: 2px solid gray;
+  text-align: center;
+  background-color: black;
+  color: royalblue;
+}
 footer {
   shape-image-threshold: unset;
 }
 .container {
   display: grid;
-  grid-template-columns: 3fr auto 2fr;
-  grid-template-rows: 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
   grid-row-start: auto;
   grid-row-end: auto;
-  grid-column-gap: auto;
+  grid-column-gap: 50px;
 
   grid-template-areas:
-    "h1   h1   h1"
-    "h3   h3   aside"
-    "main main aside";
+    "h1 main"
+    "h3 h2"
+    "aside footer";
 }
+@media (max-width: 700px) {
+  body {
+    background-image: none;
+    background-color: cadetblue;
+  }
+  h1 {
+    font-family: fantasy;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .boxed-2 {
+    float: center;
+    margin-right: 20px;
+    margin-left: 20px;
 
-.container-2 {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-auto-rows: auto;
-  grid-row-start: auto;
-  grid-row-end: auto;
-  grid-column-end: auto;
-  grid-template-areas: "footer .";
+    grid-row-end: inherit;
+  }
+  .boxed {
+    float: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    grid-row-end: inherit;
+  }
+  aside {
+    margin-left: 15%;
+    margin-right: 40%;
+  }
+  .container {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: beige;
+    background-image: none;
+  }
+  h1 {
+    font-family: fantasy;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
+
+    grid-template-areas:
+      "h1 h3"
+      "main h2"
+      "aside footer";
+  }
 }

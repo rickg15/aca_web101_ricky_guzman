@@ -1,0 +1,24 @@
+body {
+  background-color: slategray;
+}
+h1 {
+  color: red;
+}
+h3 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+  border: 2px solid black;
+  margin: 1.5%;
+  color: white;
+  font-weight: 250;
+  font-family: "Courier New", Courier, monospace;
+  background-color: gray;
+}
+a {
+  color: black;
+}
+h3:hover:first-letter {
+  color: blue;
+}

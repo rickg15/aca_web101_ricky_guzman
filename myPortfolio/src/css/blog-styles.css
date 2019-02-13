@@ -22,3 +22,7 @@ a {
 h3:hover:first-letter {
   color: blue;
 }
+iframe {
+  border: 1px solid black;
+  width: 100%;
+}

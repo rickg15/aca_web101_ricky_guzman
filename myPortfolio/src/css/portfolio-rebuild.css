@@ -1,3 +1,6 @@
+header {
+  width: 100%;
+}
 body {
   background-color: rgb(65, 62, 62);
 }
@@ -27,10 +30,6 @@ li a {
 
 li a:hover {
   background-color: rgb(65, 62, 62);
-}
-
-header {
-  width: 100%;
 }
 
 form {

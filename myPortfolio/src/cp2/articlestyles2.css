@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.header {
+  background-color: rgb(44, 6, 133);
+  color: white;
+  padding: 2%;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: gray 3px solid;
+  font-family: Oswald;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: auto;
+}
+.name {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+.body {
+  background-color: rgb(44, 6, 133);
+  font-family: Oswald;
+  height: 450px;
+  width: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: gray solid 3px;
+}
+
+h1 {
+  text-align: center;
+}
+div {
+  padding: 0.5%;
+  text-align: center;
+  margin: auto;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  grid-column: 3/4;
+  grid-row: 1;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  grid-column: 4/5;
+  grid-row: 1;
+}
+.fa-about {
+  background: black;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  grid-column: 5/6;
+  grid-row: 1;
+}
+.footer {
+  width: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: gray 3px solid;
+  height: auto;
+  background-color: rgb(44, 6, 133);
+}
+.contain {
+  display: inline-block;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: black(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: Oswald;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.footer .col ul li:hover {
+  opacity: 20%;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.clearfix {
+  clear: both;
+}

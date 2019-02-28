@@ -1,0 +1,151 @@
+body {
+  background-color: gray;
+}
+.header {
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+  padding 2%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Oswald;
+  display: grid;
+  grid-template-columns:0.5fr 2fr 0.5fr 0.5fr;
+  grid-template-rows:auto;
+}
+.div1 {
+  background-color: white;
+  border: 3px black solid;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Oswald;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}
+h3 {
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+}
+h5 {
+  color: black;
+  text-align: center;
+}
+h6 {
+  color: grey;
+  text-align: left;
+  text-indent: 5px;
+  font-weight: 800;
+  font-size: 10pt;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+div {
+  padding: 0.5%;
+  text-align: center;
+  margin: auto;
+}
+.video {
+  background-color: white;
+  border: black 3px solid;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  grid-column: 3/4;
+  grid-row: 1;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  grid-column: 4/5;
+  grid-row: 1;
+}
+.fa-about {
+  background: black;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  grid-column: 5/6;
+  grid-row: 1;
+}
+
+.footer {
+  width: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: black 3px solid;
+  height: auto;
+  background-color: white;
+}
+.contain{
+  display: inline-block; 
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: black(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: Oswald;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.footer .col ul li:hover {
+  opacity: 20%;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}

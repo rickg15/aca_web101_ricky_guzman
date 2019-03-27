@@ -1,6 +1,5 @@
 body {
-  background-image: url("../img/mountain-range.jpg");
-  background-repeat: no-repeat;
+  background-color: grey;
   background-size: cover;
 }
 
@@ -71,6 +70,12 @@ footer {
   .container {
     display: block;
   }
+}
+.location {
+  border: 2px solid gray;
+  font-family: fantasy;
+  background-color: blue;
+  color: white;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   body {

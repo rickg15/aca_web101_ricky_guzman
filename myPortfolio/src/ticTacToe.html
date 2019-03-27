@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./css/ticTacToe-style.css" />
   </head>
   <body>
+    <button onclick="changeMarkerToX()">X</button>
+    <button onclick="changeMarkerToO()">O</button>
     <div class="container">
-      <div class="box top left" id="topLeft" onclick="placeMark()"></div>
+      <div class="box topLeft" id="topLeft" onclick="placeMark()"></div>
+      <div class="box topC" id="topC" onclick="placeMark()"></div>
+      <div class="box topRight" id="topRight" onclick="placeMark()"></div>
+      <div class="box centerLeft" id="centerLeft" onclick="placeMark()"></div>
+      <div class="box centerC" id="centerC" onclick="placeMark()"></div>
+      <div class="box centerRight" id="centerRight" onclick="placeMark()"></div>
+      <div class="box bottomLeft" id="bottomLeft" onclick="placeMark()"></div>
+      <div class="box bottomC" id="bottomC" onclick="placeMark()"></div>
+      <div class="box bottomRight" id="bottomRight" onclick="placeMark()"></div>
     </div>
     <script src="js/ticTacToe.js"></script>
   </body>
